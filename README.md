@@ -1,5 +1,5 @@
 # Transition-aware
-**Transition-aware** is an RCNN-based piano transcription model, inferring onset, pitch of 88 notes from raw audios. Compared with the existing models, like [**Onsets and Frames**](https://github.com/magenta/magenta/tree/master/magenta/models/onsets_frames_transcription) and [**High-resolution**](https://github.com/qiuqiangkong/piano_transcription_inference), Transition-aware is a more stable and robust approach as mentioned in our paper.
+**Transition-aware** is an CRNN-based piano transcription model, inferring onset, pitch of 88 notes from raw audios. Compared with the existing models, like [**Onsets and Frames**](https://github.com/magenta/magenta/tree/master/magenta/models/onsets_frames_transcription) and [**High-resolution**](https://github.com/qiuqiangkong/piano_transcription_inference), Transition-aware is a more stable and robust approach as mentioned in our paper.
 
 <img src="pics/network.png" alt="model" style="zoom:48%;" />
 
