@@ -1,0 +1,7 @@
+tensorflow-gpu==1.10
+cudatookit==10.0
+cudnn==7.6.4
+librosa==0.8.0
+mir_eval==0.6
+pretty_midi==0.2.9
+pandas==1.1.5
