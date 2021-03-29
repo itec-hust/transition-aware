@@ -3,6 +3,9 @@ from functools import partial
 from librosa import cqt, load
 from glob import glob
 import random
+import numpy as np
+import tensorflow as tf
+
 random.seed(1)
 
 from configs import params
