@@ -35,7 +35,7 @@ pip install -r requirements.txt
 2. Transcribe the onset probabilities of 88 notes.
 
    ```bash
-   python predict_pitch.py --ckpt_path="checkpoint/onset/model.ckpt-204000" --audio_dir="your audio path" --predict_dir="your path to save tfrecords" --save_raw_dir="your path to save onset probabilities"
+   python predict_pitch.py --ckpt_path="checkpoint/pitch/model.ckpt-204000" --audio_dir="your audio path" --predict_dir="your path to save tfrecords" --save_raw_dir="your path to save onset probabilities"
    ```
 3. Using peak selection to get the final (onset, pitch) sequence from the onset-event probabilities and onset probabilities.
 
